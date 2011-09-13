@@ -1,0 +1,9 @@
+Cool!
+
+This is essentially a controller that instantiates an AMFPHP 2.0 gateway configured by a Kohana Config file.
+
+It also uses any kohana classes prefixed with AMF_Service by default, though you can configure it to use specific services.
+
+Basic Usage
+
+Navigate to http://yoursite/amf/gateway (assuming your routes handle it) - by default you will see a service browser with any services you've created. Use this same URL for your Flash/Flex apps!
