@@ -1,0 +1,3 @@
+[submodule "vendor/amfphp"]
+	path = vendor/amfphp
+	url = https://github.com/amfphp/amfphp-2.0.git
