@@ -1,17 +1,19 @@
 <?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
- * Description of test
+ * Just a quick little test service
  *
  * @author Lowgain
  */
 class AMF_Service_Test {
 	
+	/**
+	*
+	* AMFPHP services are cool because they're just plain classes
+	* and what you return gets serialized automatically!
+	*
+	* @return string
+	*/
 	public function say_hi()
 	{
 		return 'hi!';

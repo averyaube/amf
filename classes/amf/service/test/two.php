@@ -1,17 +1,19 @@
 <?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
- * Description of two
+ * Another test service to show that nested service directories
+ * can be picked up properly
  *
  * @author Lowgain
  */
 class AMF_Service_Test_Two {
 	
+	/**
+	*
+	* Straightforward enough
+	*
+	* @return string
+	**/
 	public function say_bye()
 	{
 		return 'bye';
