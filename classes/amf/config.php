@@ -46,6 +46,11 @@ class AMF_Config extends Amfphp_Core_Config {
 				$className = str_replace(DIRECTORY_SEPARATOR, '_', $className);
 				$className = str_replace('.php', '', $className);
 				
+				// Filter out any Abstract Classes
+				$reflection = new ReflectionClass($className);
+				if ($reflection->isAbstract())
+					continue;
+					
 				$identifier = str_replace('amf_service_', '', $className);
 				
 				$this->serviceNames2ClassFindInfo[$identifier] = 
