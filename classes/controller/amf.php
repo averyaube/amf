@@ -1,5 +1,12 @@
 <?php
-
+/**
+ * Controller that implements the AMFPHP gateway
+ * and configures it using our custom Config Object.
+ *
+ * @package AMF
+ * @category Controller
+ * @author Lowgain
+ */
 class Controller_AMF extends Controller {
 	
 	public function action_gateway()

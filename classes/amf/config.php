@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Extends AMF Config to Use Kohana Config Files, and autoload services
+ *
+ * @package AMF
+ * @category Config
+ * @author Lowgain
+ **/
 class AMF_Config extends Amfphp_Core_Config {
 	
 	public function __construct()

@@ -3,6 +3,8 @@
 /**
  * Just a quick little test service
  *
+ * @package AMF
+ * @category Example
  * @author Lowgain
  */
 class AMF_Service_Test {
